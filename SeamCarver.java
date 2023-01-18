@@ -6,7 +6,6 @@ import edu.princeton.cs.algs4.Stopwatch;
 public class SeamCarver {
 
     private Picture picture; // copy of given picture
-
     private int width; // width of picture
     private int height; // width of picture
 
@@ -42,7 +41,6 @@ public class SeamCarver {
         }
         return current;
     }
-
 
     // width of current picture
     public int width() {
